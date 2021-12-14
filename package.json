@@ -16,7 +16,7 @@
     "eslint": "eslint src",
     "eslint:fix": "eslint --fix src",
     "dev": "npm i -g && quark -v",
-    "prepublish": "npm run build && npm version patch"
+    "prepublishOnly": "npm run build && npm version patch"
   },
   "author": {
     "name": "Subhamay Dutta",

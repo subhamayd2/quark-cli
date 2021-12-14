@@ -9,7 +9,7 @@ type GenerateUtilParams = {
 }
 
 const generateUtil = ({ module, useTypescript = Config.useTypescript }:GenerateUtilParams) => {
-    const dirPath = path.join(SRC_PATH, module, 'util');
+    const dirPath = path.join(SRC_PATH, module, 'utils');
     fs.mkdirSync(dirPath, { recursive: true });
     writeFile(path.join(dirPath, `${capitalizeFirst(module)}Util.${useTypescript ? 'ts' : 'js'}`), '');
 };
