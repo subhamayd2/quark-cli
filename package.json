@@ -6,6 +6,7 @@
   "bin": {
     "quark": "./dist/quark"
   },
+  "files": ["dist"],
   "preferGlobal": true,
   "scripts": {
     "prestart": "rimraf dist/** && copyfiles -u 1 src/quark src/config.json dist/",
