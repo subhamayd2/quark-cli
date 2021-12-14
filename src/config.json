@@ -1,0 +1,9 @@
+{
+    "template": {
+        "hasProps": true,
+        "useReactNamespace": false
+    },
+    "useTypescript": false,
+    "jsExtension": ".js",
+    "intlFilename": "message"
+}
