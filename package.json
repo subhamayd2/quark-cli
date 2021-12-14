@@ -1,7 +1,7 @@
 {
   "name": "quark-cli",
   "version": "1.0.4",
-  "description": "A simple cli tool to generate react components based on atomic folder structure",
+  "description": "A simple cli tool to generate react components based on atomic folder structure.",
   "main": "./dist/quark.js",
   "types": "dist/quark.d.ts",
   "bin": {
