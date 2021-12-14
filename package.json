@@ -1,12 +1,14 @@
 {
   "name": "quark-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple cli tool to generate react components based on atomic folder structure",
   "main": "./dist/quark.js",
   "bin": {
     "quark": "./dist/quark"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "preferGlobal": true,
   "scripts": {
     "prestart": "rimraf dist/** && copyfiles -u 1 src/quark src/config.json dist/",
