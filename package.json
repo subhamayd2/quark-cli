@@ -15,7 +15,12 @@
     "eslint:fix": "eslint --fix src",
     "dev": "npm i -g && quark -v"
   },
-  "author": "Subhamay Dutta",
+  "author": {
+    "name": "Subhamay Dutta",
+    "email": "subhamay.live@live.com",
+    "url": "https://github.com/subhamayd2"
+  },
+  "repository": "https://github.com/subhamayd2/quark-cli",
   "license": "ISC",
   "devDependencies": {
     "@types/chalk": "^2.2.0",
