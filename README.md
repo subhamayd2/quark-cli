@@ -45,7 +45,7 @@ Options:
   },
   "useTypescript": false,
   "jsExtension": ".js",
-  "intlFilename": "message"
+  "intlFilename": "messages"
 }
 ```
 

@@ -10,7 +10,7 @@ type GenerateIntlParams = {
 }
 
 const generateIntl = ({ module, intlFilename = Config.intlFilename }:GenerateIntlParams) => {
-    const dirPath = path.join(SRC_PATH, module, 'intl');
+    const dirPath = path.join(SRC_PATH, module, 'i18n');
     fs.mkdirSync(dirPath, { recursive: true });
     writeFile(path.join(dirPath, `${intlFilename}-en.json`), templates.intl);
 };
